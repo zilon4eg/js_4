@@ -13,8 +13,8 @@ function getPasswordChecker(password) {
 }
 
 
-const check = getPasswordChecker('Qwe123');
-check('MyPass');
-check('Qwe123');
+const checkPassword = getPasswordChecker('Qwe123');
+checkPassword('MyPass');
+checkPassword('Qwe123');
 
 
