@@ -67,7 +67,7 @@ function isTheEnd(answer) {
 
 function body() {
     hiddenNumber = Math.floor(Math.random() * 101);
-    console.log(hiddenNumber);
+    // console.log(hiddenNumber);
     rl.question('\nЯ загадал число от 0 до 100.\nУгадай, какое число я загадал (Попытка №1): ', (answer) => {
         counter = addCounter();
         count = 1;
